@@ -80,6 +80,59 @@ Wave Type	| Particle Motion Direction	| Crack Orientation Detected |
 __P-waves__| Parallel to wave direction	| Cracks __parallel__ to wave propagation, because the compressive stress interacts directly with the crack faces. |
 __S-waves__ |	Perpendicular to wave direction	| Cracks __perpendicular__ to wave propagation, because the shear stress interacts strongly with the crack surfaces, causing strong reflection or scattering. |
 
+## Sensitivity
+In ultrasonic NDT, sensitivity refers to the ability of the ultrasonic system (including the transducer, instrumentation, and setup) to detect small flaws or discontinuities in a material. It essentially measures how well the system can respond to slight variations in material properties or detect small defects. Sensitivity is a critical factor in determining the effectiveness of an ultrasonic inspection process.
+
+### Key Aspects of Sensitivity in Ultrasonic NDT:
+
+1. __Flaw Detection Capability:__
+- Sensitivity relates to the ability to detect small or subtle flaws such as cracks, voids, inclusions, or delaminations. A system with high sensitivity can detect smaller flaws that may not significantly affect the material’s properties but are important for long-term reliability.
+- For example, a high-sensitivity system can detect micro-cracks or porosity that might not be detectable with a low-sensitivity setup.
+
+2. __Amplitude Response:__
+- Sensitivity is often measured in terms of the amplitude of the received signal. A more sensitive system will generate a higher amplitude response for the same size flaw compared to a less sensitive system.
+- The reflection or scattering of ultrasonic waves by a flaw depends on the flaw’s size, orientation, and material properties. A more sensitive transducer can detect even small variations in the returning signal.
+
+3. __Frequency Dependence:__
+- Sensitivity is influenced by the frequency of the ultrasonic wave used. Higher frequencies typically offer higher sensitivity because shorter wavelengths are more effective at detecting smaller flaws. However, they have limited penetration depth in materials.
+- Lower frequencies are less sensitive to small defects but can penetrate deeper into the material, making them useful for inspecting thicker sections.
+
+4. __Transducer Size and Type:__
+- The __transducer__ used in ultrasonic NDT plays a significant role in determining sensitivity. Smaller transducers with focused beams have higher sensitivity to small defects within their focal zone, while larger transducers may cover more area but have lower sensitivity to small features.
+- __Focused transducers__ or __phased arrays__ can increase the sensitivity by focusing ultrasonic energy on specific areas of the material, making it easier to detect small defects.
+
+4. __Material Properties:__
+- The material being inspected affects the sensitivity. Certain materials (e.g., metals) transmit ultrasonic waves well, allowing for high sensitivity. Others, such as composites or coarse-grained materials, can scatter or absorb ultrasonic waves, reducing sensitivity.
+- Variations in grain structure, texture, or inclusions within the material can also affect the sensitivity by altering the signal response.
+
+5. __Signal-to-Noise Ratio (SNR):__
+- Sensitivity is closely tied to the signal-to-noise ratio (SNR). A higher SNR means that the flaw signal is easily distinguishable from background noise, leading to better detection. Low sensitivity often results in poor SNR, where signals from small flaws are masked by noise.
+- Techniques like signal filtering, averaging, or time-gating can improve SNR and thus enhance sensitivity.
+
+6. __Calibration and Reference Standards:__
+- Sensitivity in ultrasonic NDT is often calibrated using reference standards, such as artificial defects (e.g., side-drilled holes or notches) with known sizes. These reference standards provide a baseline to assess the smallest detectable flaw size.
+- The system is typically calibrated to detect flaws down to a certain size, which is related to the sensitivity setting used during inspection.
+
+#### Factors That Affect Sensitivity in Ultrasonic NDT:
+- __Frequency of the ultrasonic wave:__ Higher frequencies provide better sensitivity to small defects but reduced penetration.
+- __Transducer design:__ Focused transducers and phased arrays improve sensitivity in localized areas.
+- __Material properties:__ Materials with high acoustic attenuation or coarse grain structure can reduce sensitivity.
+- __Inspection setup:__ Coupling conditions, transducer angle, and the geometry of the part can impact the effectiveness and sensitivity of the inspection.
+- __Signal processing:__ Advanced techniques like filtering, gating, and averaging can enhance sensitivity by improving the signal-to-noise ratio.
+
+#### Trade-Off Between Sensitivity and Penetration:
+There is often a trade-off between sensitivity and penetration depth:
+- High sensitivity requires high-frequency waves, which provide detailed information and detect small flaws but do not penetrate deeply.
+- Lower sensitivity systems use low-frequency waves that penetrate deeper into the material but are less effective at detecting small or subtle flaws.
+
+
+
+
+
+
+
+
+
 ## Pressure Formula for a Single Element Ultrasonic Transducer
 For a single-element ultrasonic transducer, the acoustic pressure $p(r,\theta,t)$ at a point in the field can be expressed using the _Rayleigh-Sommerfeld integral_, assuming the transducer is circular and radiating into a fluid medium. 
 
