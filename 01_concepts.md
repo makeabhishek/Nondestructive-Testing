@@ -133,6 +133,14 @@ There is often a trade-off between sensitivity and penetration depth:
 
 
 
+## Piezoelectric Transducers
+
+
+### How to choose PZT parameters for a given frequency?
+The thickness of the active element of PZT is set based on the desired transducer frequency. A wafer element vibrates with a wavelength twice its thickness. As a result, piezoelectric crystals are cut to a thickness equal to half of the desired wavelength.
+
+
+
 ## Pressure Formula for a Single Element Ultrasonic Transducer
 For a single-element ultrasonic transducer, the acoustic pressure $p(r,\theta,t)$ at a point in the field can be expressed using the _Rayleigh-Sommerfeld integral_, assuming the transducer is circular and radiating into a fluid medium. 
 
@@ -187,10 +195,10 @@ Propagation	| Propagate through the entire medium without restriction. | Confine
 Types	| Longitudinal (P-waves) and Shear (S-waves).| Lamb waves, Rayleigh waves, SH waves, etc. |
 Energy Distribution	| Disperse throughout the volume of the material.| Energy is confined along boundaries or interfaces. |
 Applications	| Used for flaw detection in bulk materials.| Used for inspecting long structures like plates, pipelines, and cables. |
-Attenuation	| Typically higher due to energy dissipation in all directions.	| Lower attenuation, allowing longer propagation along the structure. |
+Attenuation	| Typically higher due to energy dissipation in all directions.	| Lower attenuation allows longer propagation along the structure. |
 
 ## What is Dispersion in Ultrasonic Guided Waves?
-Dispersion in ultrasonic guided waves refers to the phenomenon where different frequency components of the wave travel at different phase velocities. This occurs because the velocity of guided waves depends on both the frequency of the wave and the geometric properties of the structure (such as thickness or diameter). As a result, different modes (Lamb wave modes, for example) exhibit different phase velocities at different frequencies, causing the wave packet to spread out over time.
+Dispersion in ultrasonic-guided waves refers to the phenomenon where different frequency components of the wave travel at different phase velocities. This occurs because the velocity of guided waves depends on both the frequency of the wave and the geometric properties of the structure (such as thickness or diameter). As a result, different modes (Lamb wave modes, for example) exhibit different phase velocities at different frequencies, causing the wave packet to spread out over time.
 
 Dispersion makes guided wave analysis more complex because the velocity of the wave is not constant and varies with frequency, which can affect the accuracy of signal interpretation in applications like non-destructive testing.
 
