@@ -223,3 +223,5 @@ Where:
 
 These equations relate the frequency, thickness, and material properties to the phase velocity of the Lamb waves. Solving these transcendental equations for each mode yields the phase velocity as a function of frequency, known as the dispersion curve.
 
+## Often used approximations
+<img width="644" alt="image" src="https://github.com/user-attachments/assets/0e35ade5-faa2-4b10-8cd1-9a27668d1828">
