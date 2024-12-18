@@ -17,3 +17,5 @@ __Adjoint Methods__
 __Optimization__
 1. [Convex Optimization. Stephen Boyd](https://stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf)
 2. [Video Lecture: Optimization Methods for Machine Learning and Engineering (KIT Winter Term 20/21)](https://www.youtube.com/watch?v=3VTUPnQTGcA&list=PLdkTDauaUnQpzuOCZyUUZc0lxf4-PXNR5&index=24)
+3. [Baudin, Michaël. "Introduction to Unconstrained Optimization." (2011).](https://www.scilab.org/sites/default/files/introoptim_v0.3.pdf)
+4. [Vuik, C. "Krylov subspace solvers and preconditioners." ESAIM: Proceedings and Surveys 63 (2018): 1-43.](https://www.esaim-proc.org/articles/proc/pdf/2018/03/proc186301.pdf)
