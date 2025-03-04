@@ -9,11 +9,11 @@ $$
 $$
 
 where:
-- \( u_i \) is the displacement field (\( i = x, y, z \)).
-- \( \rho \) is the **material density**.
-- \( \sigma_{ij} \) is the **Cauchy stress tensor**.
-- \( f_i \) is the **body force per unit volume**.
-- \( \nabla \cdot \sigma_{ij} \) represents the **internal force due to stress divergence**.
+- $u_i$ is the displacement field $i = x, y, z$.
+- $\rho$ is the **material density**.
+- $\sigma_{ij}$ is the **Cauchy stress tensor**.
+- $f_i$ is the **body force per unit volume**.
+- $\nabla \cdot \sigma_{ij}$ represents the **internal force due to stress divergence**.
 
 For an **isotropic elastic medium**, stress is related to strain through **Hooke’s Law**:
 
@@ -143,7 +143,7 @@ $$
 
 ### 2.4. Compact Matrix Form
 
-Defining the **Laplacian** \( \nabla^2 \) and the **gradient of divergence**:
+Defining the **Laplacian** $\nabla^2$ and the **gradient of divergence**:
 
 $$
 \nabla^2 \mathbf{u} =
